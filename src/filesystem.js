@@ -118,7 +118,7 @@ const saveToDb = async (metaHash, imageHash, editionSize) => {
     let paddedHex = (
       "0000000000000000000000000000000000000000000000000000000000000000" + id
     ).slice(-64);
-    let url = `https://ipfs.moralis.io:2053/ipfs/${metaHash}/metadata/${paddedHex}.json`;
+    let url = `https://gateway.moralisipfs.com/ipfs/${metaHash}/metadata/${paddedHex}.json`;
     let options = { json: true };
 
     request(url, options, (error, res, body) => {

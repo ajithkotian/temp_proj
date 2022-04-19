@@ -47,7 +47,7 @@ const uploadMetadata = async (
     let filetype = "base64";
     imageDataArray[
       i
-    ].filePath = `https://ipfs.moralis.io:2053/ipfs/${imageCID}/images/${paddedHex}.png`;
+    ].filePath = `https://gateway.moralisipfs.com/ipfs/${imageCID}/images/${paddedHex}.png`;
     //imageDataArray[i].image_file = res.data[i].content;
 
     // do something else here after firstFunction completes

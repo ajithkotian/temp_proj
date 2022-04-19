@@ -123,7 +123,7 @@ const height = 1000;
 // description for NFT in metadata file
 const description = "Survivors";
 // base url in case no unique metadata file i.e IPFS
-const baseImageUri = "https://qghbkv7plqrc.usemoralis.com:2053/server";
+const baseImageUri = "<INSERT_MORALIS_SERVER_URL>";
 // id for edition to start from
 const startEditionFrom = 1;
 // amount of NFTs to generate in edition

@@ -37,12 +37,12 @@ const ctx = canvas.getContext("2d");
 // // xAPIKey available here: https://deep-index.moralis.io/api-docs/#/storage/uploadFolder
 // const apiKey = process.env.API_KEY;
 
-const serverUrl = "https://qghbkv7plqrc.usemoralis.com:2053/server";
-const appId = "b9of9YNkbtIeIRwEMh8CxI8Tz9aaJvu3EaWv7Ul0";
-const masterKey = "GYXVPL1aR6jihaIsrRLNgpgVWAIYLJp54pibZ2XX";
+const serverUrl = "<INSERT_MORALIS_SERVER_URL>";
+const appId = "<INSERT_MORALIS_APP_ID>";
+const masterKey = "<INSERT_MORALIS_MASTER_KEY>";
 const apiUrl = "https://deep-index.moralis.io/api/v2/ipfs/uploadFolder";
-// xAPIKey available here: https://deep-index.moralis.io/api-docs/#/storage/uploadFolder
-const apiKey = "CsEzIdNSkGR5KTrmoabSW1XkQE681CJhpLPKx1j1Fql6IB8amEjoV74WAPVX48wD";
+// xAPIKey available here: https://admin.moralis.io/web3Api
+const apiKey = "<INSERT_API_KEY>";
 
 // Start Moralis session
 Moralis.start({ serverUrl, appId, masterKey });
